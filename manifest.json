@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Focus.",
+    "version": "1.0",
+    "description": "Focus is your ultimate productivity companion, designed to help you stay on track and make the most out of your browsing sessions.",
+    "permissions": [
+        "notifications"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
